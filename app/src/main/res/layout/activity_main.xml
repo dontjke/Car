@@ -9,16 +9,9 @@
     <ImageView
         android:id="@+id/carImageView"
         android:layout_width="58dp"
-        android:layout_height="103dp"
+        android:layout_height="109dp"
         android:layout_gravity="top|start"
         android:background="@drawable/mercedes"
         android:contentDescription="@string/car" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/goButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/go" />
 
 </FrameLayout>

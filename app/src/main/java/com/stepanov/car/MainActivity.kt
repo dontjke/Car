@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.carImageView.animate().rotation(rotationStart)
-        binding.goButton.setOnClickListener {
+        binding.carImageView.setOnClickListener {
             val changeBounds = ChangeBounds()
             changeBounds.setPathMotion(ArcMotion())
             changeBounds.duration = 2000
